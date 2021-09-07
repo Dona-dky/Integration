@@ -116,7 +116,7 @@ nav ul li a:not(.active):hover:after{
 }
 
 .scroll_img img{
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 
 /* BOUTON */
@@ -133,4 +133,112 @@ nav ul li a:not(.active):hover:after{
 .btn:hover{
     color: #000;
     background-color: #346c86;
+}
+
+/* UN PARI */
+
+#my_bet{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.the_bet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.begin{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.begin h1{
+    font-size: 40.5px;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #bf3676;
+    margin-top: 40px;
+}
+
+.begin hr{
+    color: #bf3676;
+    background-color: #bf3676;
+    margin: 28px auto 59px auto;
+    width: 248px;
+    height: 2px;
+}
+
+.begin p{
+    font-size: 18px;
+    width: 787px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pink_circle{
+    border-radius:50%;
+    margin: 10px 0 0 13px;
+    width: 10px;
+    height: 10px;
+    background-color: #bf3676; 
+}
+
+.four_explanation{
+    /* position: absolute; */
+    display: flex;
+    flex-flow: column wrap;
+    top: 363px;
+    height: 500px ;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.explanation{
+    width: calc((100% - 400px) / 2);
+    display: inline-flex;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    height: 120px;
+}
+
+.explanation img{
+    padding: 19px 30px 45px 20px ;
+}
+
+.txt_explanation h2{
+    display: inline-flex;
+    margin-bottom: 11px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.txt_explanation p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    width: 441px;
+}
+
+#btn_bet{
+    text-align: center;
+}
+
+.txt_side{
+    transform: rotate(90deg);
+    width: 430px;
+    position: absolute;
+    margin-top: -70px;
+    right: -74px;
+}
+
+.txt_side p{
+    text-align: left;
+    color: #929292;
+    font-size: 9px;
 }
